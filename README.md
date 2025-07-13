@@ -83,12 +83,11 @@ Poniżej prezentujemy wszyskie line'y do junction J:
 
 ### Struktura projektu
 
-W folderze `SumoBuszka` znajduje się cała struktura symulacji:
+W folderze `SumoBuszka` znajduje się cała struktura symulacji, w tym pliki takie jak:
 
 - `BuszkaMain.net.xml` - pełny opis sieci (drogi, skrzyżowania, światła).
 - `Buszka.sumocfg` = plik konfiguracyjny uruchamiający symulację.
 - `routes8_9.rou.xml` / `routes15_45_16_45.rou.xml` - definicje ruchu (poranna i popołudniowa symulacja).
-- `Statystyki/` - skrypty do zbierania danych i walidacji wyników.
 
 ---
 
