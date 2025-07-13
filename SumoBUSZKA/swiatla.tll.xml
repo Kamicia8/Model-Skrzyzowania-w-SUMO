@@ -1,0 +1,19 @@
+<additionals>
+    <tlLogic id="240977613" type="static" programID="0" offset="0">
+        <phase duration="24" state="rrrGGGrrrGGG"/>
+        <phase duration="3"  state="rrrGyyrrryyy"/>
+        <phase duration="2"  state="yyyGrrrrrrrr"/>
+        <phase duration="15" state="GGGGrrrrrrrr"/>
+        <phase duration="3"  state="GGGyrrrrrrrr"/>
+        <phase duration="2"  state="GGGrrrrrrrrr"/>
+        <phase duration="3"  state="GGyrrrrrrrrr"/>
+        <phase duration="4"  state="GGrrrrrrrrrr"/>
+        <phase duration="2"  state="GGrrrryyyrrr"/>
+        <phase duration="29" state="GGrrrrGGGrrr"/>
+        <phase duration="3"  state="yyrrrrGGGrrr"/>
+        <phase duration="5"  state="rrrrrrGGGrrr"/>
+        <phase duration="3"  state="rrrrrryyyrrr"/>
+        <phase duration="2"  state="rrryyyrrryyy"/>
+    </tlLogic>
+
+</additionals>

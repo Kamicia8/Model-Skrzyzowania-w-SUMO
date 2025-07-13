@@ -1,0 +1,29 @@
+
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- Detektory na wlocie A (Piastowska N) -->
+    <inductionLoop id="det_Ai_0" lane="Ai_0" pos="-10.0" freq="60" file="detectors/Ai_0.xml"/>
+    <inductionLoop id="det_Ai_1" lane="Ai_1" pos="-10.0" freq="60" file="detectors/Ai_1.xml"/>
+
+    <!-- Detektory na wlocie B (Reymonta) -->
+    <inductionLoop id="det_Bi_0" lane="Bi_0" pos="-15.0" freq="60" file="detectors/Bi_0.xml"/>
+    <inductionLoop id="det_Bi_1" lane="Bi_1" pos="-15.0" freq="60" file="detectors/Bi_1.xml"/>
+    <inductionLoop id="det_Bi2_0" lane="Bi2_0" pos="-20.0" freq="60" file="detectors/Bi2_0.xml"/>
+
+    <!-- Detektory na wlocie C (Piastowska S) -->
+    <inductionLoop id="det_Ci_0" lane="Ci_0" pos="-10.0" freq="60" file="detectors/Ci_0.xml"/>
+
+    <!-- Detektory na wlocie D (Buszka) -->
+    <inductionLoop id="det_Di_0" lane="Di_0" pos="-5.0" freq="60" file="detectors/Di_0.xml"/>
+
+    <!-- Detektory obszarowe na skrzyżowaniu J -->
+    <laneAreaDetector id="area_J_Ai" lane="Ai_0" pos="5.0" endPos="15.0" freq="30" file="detectors/area_J_Ai.xml"/>
+    <laneAreaDetector id="area_J_Bi" lane="Bi_0" pos="5.0" endPos="15.0" freq="30" file="detectors/area_J_Bi.xml"/>
+    <laneAreaDetector id="area_J_Ci" lane="Ci_0" pos="5.0" endPos="15.0" freq="30" file="detectors/area_J_Ci.xml"/>
+
+    <!-- Detektory wyjazdowe -->
+    <inductionLoop id="det_Ao_0" lane="Ao_0" pos="10.0" freq="60" file="detectors/Ao_0.xml"/>
+    <inductionLoop id="det_Bo_0" lane="Bo_0" pos="10.0" freq="60" file="detectors/Bo_0.xml"/>
+    <inductionLoop id="det_Co_0" lane="Co_0" pos="10.0" freq="60" file="detectors/Co_0.xml"/>
+    <inductionLoop id="det_Do_0" lane="Do_0" pos="10.0" freq="60" file="detectors/Do_0.xml"/>
+</additional>

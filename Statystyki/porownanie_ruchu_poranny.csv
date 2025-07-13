@@ -1,0 +1,39 @@
+﻿Relacja,Szczyt,Metryka,Symulacja,Referencja,Różnica bezwzględna,Różnica procentowa
+AL,poranny,E/h,370.0,374.5,-4.5,-1.2016021361815754
+AL,poranny,P/h,370.0,375.0,-5.0,-1.3333333333333335
+AP,poranny,E/h,15.0,15.0,0.0,0.0
+AP,poranny,P/h,15.0,15.0,0.0,0.0
+AW,poranny,E/h,400.0,410.0,-10.0,-2.4390243902439024
+AW,poranny,P/h,400.0,404.0,-4.0,-0.9900990099009901
+BL,poranny,E/h,32.0,32.5,-0.5,-1.5384615384615385
+BL,poranny,P/h,32.0,32.0,0.0,0.0
+BP,poranny,E/h,193.0,196.0,-3.0,-1.530612244897959
+BP,poranny,P/h,193.0,194.0,-1.0,-0.5154639175257731
+BW,poranny,E/h,13.0,12.5,0.5,4.0
+BW,poranny,P/h,13.0,13.0,0.0,0.0
+CL,poranny,E/h,29.0,28.5,0.5,1.7543859649122806
+CL,poranny,P/h,29.0,29.0,0.0,0.0
+CP,poranny,E/h,37.0,37.0,0.0,0.0
+CP,poranny,P/h,37.0,37.0,0.0,0.0
+CW,poranny,E/h,457.0,468.0,-11.0,-2.3504273504273505
+CW,poranny,P/h,457.0,465.0,-8.0,-1.7204301075268817
+DL,poranny,E/h,14.0,14.0,0.0,0.0
+DL,poranny,P/h,14.0,14.0,0.0,0.0
+DP,poranny,E/h,15.0,12.0,3.0,25.0
+DP,poranny,P/h,15.0,15.0,0.0,0.0
+DW,poranny,E/h,20.0,17.5,2.5,14.285714285714285
+DW,poranny,P/h,20.0,20.0,0.0,0.0
+Nieznane,poranny,E/h,18.0,,,
+Nieznane,poranny,P/h,18.0,,,
+Skrzyżowanie,poranny,E/h,1613.0,1617.5,-4.5,-0.2782071097372488
+Skrzyżowanie,poranny,P/h,1613.0,1613.0,0.0,0.0
+Wlot A,poranny,E/h,785.0,799.5,-14.5,-1.813633520950594
+Wlot A,poranny,P/h,785.0,794.0,-9.0,-1.1335012594458438
+Wlot B,poranny,E/h,238.0,241.0,-3.0,-1.2448132780082988
+Wlot B,poranny,P/h,238.0,239.0,-1.0,-0.41841004184100417
+Wlot C,poranny,E/h,523.0,533.5,-10.5,-1.9681349578256795
+Wlot C,poranny,P/h,523.0,531.0,-8.0,-1.5065913370998116
+Wlot D,poranny,E/h,49.0,43.5,5.5,12.643678160919542
+Wlot D,poranny,P/h,49.0,49.0,0.0,0.0
+Wlot N,poranny,E/h,18.0,,,
+Wlot N,poranny,P/h,18.0,,,

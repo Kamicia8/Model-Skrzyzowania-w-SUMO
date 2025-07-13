@@ -1,0 +1,29 @@
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+
+    <!-- Definicje typów pojazdów -->
+    <vType id="type1" accel="2.6" decel="4.5" sigma="0.5" length="5.0" maxSpeed="50.0"/>
+
+    <!-- Przepływy dla poszczególnych wlotów -->
+    <!-- A - Piastowska (N) - K1L -->
+    <flow id="flow_Ai_0" type="type1" from="Ai" to="Do" departLane="0" begin="0" end="3600" vehsPerHour="15"/>
+    <flow id="flow_Ai_1" type="type1" from="Ai" to="Co" departLane="0" begin="0" end="3600" vehsPerHour="404"/>
+    <flow id="flow_AiL_2" type="type1" from="Ai" to="Bo" departLane="1" begin="0" end="3600" vehsPerHour="375"/>
+
+    <!-- B - Reymonta (E) - K2 -->
+
+	
+    <flow id="flow_Bi_0" type="type1" from="Bi" to="Ao" departLane="0" begin="0" end="3600" vehsPerHour="194"/>
+    <flow id="flow_Bi_1" type="type1" from="Bi" to="Do" departLane="1" begin="0" end="3600" vehsPerHour="13"/>
+    <flow id="flow_Bi_2" type="type1" from="Bi" to="Co" departLane="1" begin="0" end="3600" vehsPerHour="32"/>
+
+    <!-- C - Piastowska (S) - K3 -->
+    <flow id="flow_Ci_0" type="type1" from="Ci" to="Bo" departLane="0" begin="0" end="3600" vehsPerHour="37"/>
+    <flow id="flow_Ci_1" type="type1" from="Ci" to="Ao" departLane="0" begin="0" end="3600" vehsPerHour="465"/>
+    <flow id="flow_Ci_2" type="type1" from="Ci" to="Do" departLane="0" begin="0" end="3600" vehsPerHour="29"/>
+
+    <!-- D - Buszka (W) - K4 -->
+    <flow id="flow_Di_0" type="type1" from="Di" to="Co" departLane="0" begin="0" end="3600" vehsPerHour="15"/>
+    <flow id="flow_Di_1" type="type1" from="Di" to="Bo" departLane="0" begin="0" end="3600" vehsPerHour="20"/>
+    <flow id="flow_Di_2" type="type1" from="Di" to="Ao" departLane="0" begin="0" end="3600" vehsPerHour="14"/>
+
+</routes>

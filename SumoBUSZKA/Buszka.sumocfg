@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-04-22 23:06:00 by Eclipse SUMO sumo Version 1.22.0 -->
+
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="BuszkaMain.net.xml"/>
+        <!--<route-files value="routes8_9.rou.xml"/>-->
+		<!--<route-files value="routes15_45_16_45.rou.xml"/>-->
+
+		<!--zmieniaj nazwy plików w zaleznosci co chcesz badać, trzeba tez odkomentować odpowiednie w BuszkaMain swiatła-->
+
+        <route-files value="routes15_45_16_45.rou.xml"/> <!-- szczyt -->
+
+        <!-- Przykład dodatkowego pliku (detektory) – obecnie nieużywane -->
+        <!-- <additional-files value="detectors.add.xml"/> -->
+    </input>
+
+    <output>
+    <!--
+        <tripinfo-output value="tripinfo_rano.xml" close-on-end="true"/>
+        <summary-output value="summary_rano.xml" close-on-end="true"/>
+        <queue-output value="queues_rano.xml" close-on-end="true"/>
+        <fcd-output value="fcd_rano.xml" close-on-end="true"/>
+	-->
+        <!--zmieniaj nazwy plików w zaleznosci co chcesz badać-->
+
+
+
+		<tripinfo-output value="tripinfo_poludnie.xml"/>
+        <summary-output value="summary_poludnie.xml"/>
+        <queue-output value="queues_poludnie.xml"/>
+        <fcd-output value="fcd_poludnie.xml"/>
+    </output>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+        <tls.actuated.jam-threshold value="30"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-steps value="18"/>
+        <device.rerouting.adaptation-interval value="10"/>
+    </routing>
+
+    <gui_only>
+        <gui-settings-file value="../2025-04-22-13-34-51/osm.view.xml"/>
+    </gui_only>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</sumoConfiguration>
+
