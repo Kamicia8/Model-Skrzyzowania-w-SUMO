@@ -93,12 +93,7 @@ W folderze `SumoBuszka` znajduje się cała struktura symulacji, w tym pliki tak
 
 ### Folder z importu OSM
 
-Podczas importu mapy z OpenStreetMap za pomocą `osmWebWizard.py`, SUMO automatycznie tworzy folder (np. `2025-04-22-13-34-51`), który zawiera:
-
-- `osm.sumocfg` - konfiguracja symulacji,
-- `osm.net.xml` - sieć drogowa,
-- `osm.poly.xml` - dane wizualne,
-- `osm.view.xml` - ustawienia widoku.
+Podczas importu mapy z OpenStreetMap za pomocą `osmWebWizard.py`, SUMO automatycznie tworzy folder (np. `2025-04-22-13-34-51`).
 
 Ten folder **musi zostać zachowany** w projekcie, ponieważ pliki `.sumocfg` korzystają z niego przez ścieżki względne. Usunięcie lub przeniesienie folderu bez aktualizacji tych ścieżek prowadzi do błędów podczas uruchamiania. Dlatego folder ten został dołączony do repozytorium.
 
