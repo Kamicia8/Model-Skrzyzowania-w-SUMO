@@ -8,7 +8,7 @@
 - podział modelu ruchu drogowego na kategorie (makro, mikro, mezo, submikro)
 - opis mikroskopowych symulatorów
 
-  ![alt text](Zdjęcia\image0000.png)
+  ![alt text](Zdjęcia/image0000.png)
   
 - a to co nas interesuje:
 
@@ -17,7 +17,7 @@
   czasowo-przestrzenne. System umożliwia symulację dla różnych typów pojazdów, różnych skrzyżowań z sygnalizacją świetlną lub bez niej, dla sieci z liczbą połączeń przekraczającą 10 000. Ponadto, SUMO obejmuje procedury dynamicznego przydzielania ruchu zaproponowane przez Gawrona oraz graficzną aplikację, która zapewnia dwuwymiarową wizualizację graficzną symulacji ruchu
 - przedstawienie sieci dróg jako grafu:
 
-  ![alt text](Zdjęcia\image-111.png) 
+  ![alt text](Zdjęcia/image-111.png) 
 
 - opis świateł, sieci drogowej, generowania ruchu, opis warunków pogodowych, natężenia drogowego, godzin pomiarów
 - oznaczenia: P – samochód osobowy, L – samochód ciężarowy, H – samochód ciężarowy, H – samochód ciężarowy z przyczepą, C – autobus/autokar, M – motocykl i B – rower oraz manewru (L – skręt w lewo, S – jazda na wprost i R – skręt w prawo)
@@ -34,7 +34,7 @@
   szczegółowym poziomie, biorąc pod uwagę indywidualne pojazdy i ich
   kierowców. Wymagają dokładnych danych o każdym pojeździe na drodze, takich jak położenie, prędkość, przyspieszenie, preferencje kierowcy np.
 
-  ![alt text](Zdjęcia\image-222.png)
+  ![alt text](Zdjęcia/image-222.png)
 
 - Model Kraussa opisuje zachowanie kierowców na podstawie ich reakcji na
   odległość do pojazdu przed nimi, prędkość pojazdu przed nimi i przyspieszenie.
