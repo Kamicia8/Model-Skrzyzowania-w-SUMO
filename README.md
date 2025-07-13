@@ -37,15 +37,15 @@ python osmWebWizard.py
 
 4. W nowym oknie wybierz interesujący fragment mapy i kliknij **Generate Scenario**.
 
-![alt text](Zdjęcia\image-1.png)
+![alt text](Zdjęcia/image-1.png)
 
 5. Otworzy się SUMO z wygenerowaną częścią mapy:
 
-![alt text](Zdjęcia\image-2.png)
+![alt text](Zdjęcia/image-2.png)
 
 6. W SUMO przy użyciu skrótu klawiszowego `Ctrl + T` otwieramy NetEdit:
 
-![alt text](Zdjęcia\image-3.png)
+![alt text](Zdjęcia/image-3.png)
 
 ---
 
@@ -53,11 +53,11 @@ python osmWebWizard.py
 
 1. **Oczyszczenie mapy** - usunięto zbędne obiekty (chodniki, budynki), które mogły zakłócać symulację.
 
-![alt text](Zdjęcia\image-4.png)
+![alt text](Zdjęcia/image-4.png)
 
 2. **Nazewnictwo węzłów (`junctions`)** – dostosowane do danych z artykułu `Analiza_funkcjonowania_skrzyżowania.pdf`.
 
-![alt text](Zdjęcia\image-5.png)
+![alt text](Zdjęcia/image-5.png)
 
 3. **Dostosowanie długości ulic** - zmierzono i zweryfikowano przy pomocy Google Maps.
 
@@ -65,21 +65,21 @@ Wyjaśnienie nazwnictwa na przykładzie:
 
 `Do` - oznaczenie D zgodnie z artykułem, druga literka `o` oznacza out, czyli wyjazdowy `line` w symulacji, from J to D oznacza z junction J (skryżowania wszystkich dróg) do junction D:
 
-![alt text](Zdjęcia\image-6.png)
+![alt text](Zdjęcia/image-6.png)
 
 Poniżej prezentujemy wszyskie line'y do junction J:
 
-![alt text](Zdjęcia\image-7.png)
+![alt text](Zdjęcia/image-7.png)
 
 ### Konfiguracja świateł
 
 1. **Analiza i synchronizacja sygnalizacji** wykonana została w Excelu:
 
-![alt text](Zdjęcia\image-9.png)
+![alt text](Zdjęcia/image-9.png)
 
 2. **Wprowadzenie do SUMO** - konfiguracja została przeniesiona do NetEdit:
 
-![alt text](Zdjęcia\image-8.png)
+![alt text](Zdjęcia/image-8.png)
 
 ### Struktura projektu
 
@@ -107,4 +107,4 @@ Ten folder **musi zostać zachowany** w projekcie, ponieważ pliki `.sumocfg` ko
 
 #### Ostateczna forma symulacji (po oczyszczeniu mapy i wprowadzeniu konfiguracji):
 
-![alt text](Zdjęcia\image-10.png)
+![alt text](Zdjęcia/image-10.png)
