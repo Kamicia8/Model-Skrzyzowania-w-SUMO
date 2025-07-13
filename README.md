@@ -15,7 +15,7 @@ Projekt polega na stworzeniu i przeprowadzeniu symulacji rzeczywistego skrzyżow
 
 ## Przebieg projektu:
 
-Początkowym etapem projektu było szerokie zapoznanie się z problemem, przegląd literatury (plik: `literatura.pdf`) i narzędzi, z których należy i można skorzystać. W projekcie zdecydowano się na symulację skrzyżowania w Krakowie, dokładnie skrzyżowanie ulic Buszka - Piastowska - Reymonta. Analizowano wyłącznie ruch samochodów, uzględniono zmianę swiateł, a także różne pory dnia (ranne oraz popołudniowe). Przy tworzeniu symulacji korzystano z danych podanych w artykule `Analiza_funkcjonowania_skrzyżowania.pdf`.
+Początkowym etapem projektu było szerokie zapoznanie się z problemem, przegląd literatury (plik: `literatura.pdf`) i narzędzi, z których należy i można skorzystać. W projekcie zdecydowano się na symulację skrzyżowania w Krakowie, dokładnie skrzyżowanie ulic Buszka - Piastowska - Reymonta. Analizowano wyłącznie ruch samochodów, uwzględniono zmianę swiateł, a także różne pory dnia (ranne oraz popołudniowe). Przy tworzeniu symulacji korzystano z danych podanych w artykule `Analiza_funkcjonowania_skrzyżowania.pdf`.
 
 ### Import mapy z OSM:
 
@@ -55,7 +55,7 @@ python osmWebWizard.py
 
 ![alt text](Zdjęcia/image-4.png)
 
-2. **Nazewnictwo węzłów (`junctions`)** – dostosowane do danych z artykułu `Analiza_funkcjonowania_skrzyżowania.pdf`.
+2. **Nazewnictwo węzłów (`junctions`)** - dostosowane do danych z artykułu `Analiza_funkcjonowania_skrzyżowania.pdf`.
 
 ![alt text](Zdjęcia/image-5.png)
 
